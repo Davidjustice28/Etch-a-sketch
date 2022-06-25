@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta src = "UTF-8">
+		<meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+		<title>Etch a sketch</title>
+		<link href = "styles.css" rel = "stylesheet">
+	</head>
+	
+	<body>
+		<div class = "flex-container">
+			<div class = "title"><h1>Etch Sketch Pad</h1></div>
+			<div id = "input_box">
+				<label for = "input">Rate: </label>
+				<input type = "text" placeholder = "Enter rate" id = "scaleRate" name = "input">
+			</div>
+			<div class = "content">
+				<div class = "board"></div>
+				<div class = "buttons">
+					<button id = "black">Black</button>
+					<button id = "red">Red</button>
+					<button id = "colors">Random</button>
+					<button id = "reset">Reset</button>
+				</div>
+			</div>
+			<div class = "instructions">
+				<h2>Instructions</h2>
+				<p>1. Enter a number into the input box. This number will be multiplied by itself to create the initial amount of squares.<br>
+					2.Click either the Black, Red, or Random buttons to decide the color.
+					Random button will reset the grid and use a different color each time.<br>
+					3.Click the Reset button to clear the grid or input a bigger number for smaller squares.
+				</p>
+			</div>
+		
+		</div>
+		
+	
+		<script src = "script.js"></script>
+	</body>	
+</html>
